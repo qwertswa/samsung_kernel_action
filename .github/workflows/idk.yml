@@ -59,7 +59,7 @@ jobs:
 
         - name: "Clone forked repo"
           run: |
-            git clone --recurse-submodules -b ${{ github.event.inputs.device }} --single-branch  https://github.com/qwertswa/ArtisanROM UN1CA
+            git clone --recurse-submodules -b ${{ github.event.inputs.device }} --single-branch  https://github.com/qwertswa/UN1CA UN1CA
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
